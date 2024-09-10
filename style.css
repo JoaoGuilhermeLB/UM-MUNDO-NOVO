@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Pirata One", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+p {
+    font-size: 21px;
+}
+
+
+button {
+    background-color: rgb(161, 246, 246);
+    color: rgb(132, 0, 255);
+    font-family: "Gloria Hallelujah", cursive;
+   font-size: 17px;
+
+
+}
+
+.Passo {
+    display: none;
+}
+
+.Passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+img {
+    max-width: 80%;
+}
